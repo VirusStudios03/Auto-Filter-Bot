@@ -55,7 +55,7 @@ if len(SUPPORT_GROUP) == 0:
 else:
     SUPPORT_GROUP = int(SUPPORT_GROUP)
     
-OPENAI_API = environ.get('OPENAI_API', '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')
+OPENAI_API = environ.get('OPENAI_API', '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')
 if len(OPENAI_API) == 0:
     print('Warning - OPENAI_API is empty')
 
