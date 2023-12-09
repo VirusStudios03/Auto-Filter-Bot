@@ -39,7 +39,7 @@ else:
     ADMINS = [int(admins) for admins in ADMINS.split()]
 
 # Channels
-INDEX_CHANNELS = [int(index_channels) if index_channels.startswith("-") else index_channels for index_channels in environ.get('INDEX_CHANNELS', '-1001800011644').split()]
+INDEX_CHANNELS = [int(index_channels) if index_channels.startswith("-") else index_channels for index_channels in environ.get('INDEX_CHANNELS', '-1001858969618 -1001800011644').split()]
 AUTH_CHANNEL = [int(auth_channels) for auth_channels in environ.get('AUTH_CHANNEL', '-1001402115130').split()]
 LOG_CHANNEL = environ.get('LOG_CHANNEL', '-1001995831309')
 if len(LOG_CHANNEL) == 0:
@@ -93,7 +93,7 @@ FILE_CAPTION = environ.get("FILE_CAPTION", script.FILE_CAPTION)
 SHORTLINK_URL = environ.get("SHORTLINK_URL", "shareus.io")
 SHORTLINK_API = environ.get("SHORTLINK_API", "z8J99Nke1wNxdm3wyj1G7pWxAaI3")
 VERIFY_EXPIRE = int(environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
-IS_VERIFY = is_enabled(environ.get("IS_VERIFY", "True"), True)
+IS_VERIFY = is_enabled(environ.get("IS_VERIFY", "False"), False)
 WELCOME_TEXT = environ.get("WELCOME_TEXT", script.WELCOME_TEXT)
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/How_To_Verify/11")
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/How_To_Verify/11")
