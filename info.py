@@ -21,7 +21,7 @@ API_HASH = environ.get('API_HASH', '34d8c9887fe445c1dac2228cbdf9ab48')
 if len(API_HASH) == 0:
     print('Error - API_HASH is missing, exiting now')
     exit()
-BOT_TOKEN = environ.get('BOT_TOKEN', '6052565020:AAGSj-s7O0FJUKe9zc6cWdnhmNJkavu15Is')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6052565020:AAEE7aCx619jfFovvs7bIfbGfC9CVmvYY08')
 if len(BOT_TOKEN) == 0:
     print('Error - BOT_TOKEN is missing, exiting now')
     exit()
