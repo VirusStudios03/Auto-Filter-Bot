@@ -60,7 +60,7 @@ if len(OPENAI_API) == 0:
     print('Warning - OPENAI_API is empty')
 
 # MongoDB information
-DATABASE_URL = environ.get('DATABASE_URL', "mongodb+srv://Virusbot:virus347000vmp03@cluster0.aexnusr.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URL = environ.get('DATABASE_URL', "+srv://Virusbot:virus347000vmp03@cluster0.aexnusr.mongodb.net/?retryWrites=true&w=majority")
 if len(DATABASE_URL) == 0:
     print('Error - DATABASE_URL is missing, exiting now')
     exit()
